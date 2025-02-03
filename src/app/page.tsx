@@ -1,3 +1,9 @@
+import ContactView from "@/views/Contact";
+
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <ContactView />
+    </div>
+  );
 }
