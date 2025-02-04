@@ -1,7 +1,17 @@
+// src/app/about/page.tsx
+
+// React Import
 import React from "react";
 
-const Page = () => {
-  return <div>page</div>;
+// View Import
+import AboutView from "@/views/About";
+
+const About = () => {
+  return (
+    <div>
+      <AboutView />
+    </div>
+  );
 };
 
-export default Page;
+export default About;

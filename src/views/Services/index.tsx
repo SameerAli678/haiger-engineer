@@ -1,7 +1,10 @@
+// src/views/Services/index.tsx
+
+// React Import
 import React from "react";
 
-const Page = () => {
-  return <div>page</div>;
+const ServicesView = () => {
+  return <div>ServicesView</div>;
 };
 
-export default Page;
+export default ServicesView;

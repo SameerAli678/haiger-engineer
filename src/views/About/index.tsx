@@ -1,3 +1,6 @@
+// src/views/About/index.tsx
+
+// React Import
 import React from "react";
 
 const AboutView = () => {

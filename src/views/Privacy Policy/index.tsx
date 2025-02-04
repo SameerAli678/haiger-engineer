@@ -1,7 +1,10 @@
+// src/views/PrivacyPolicy/index.tsx
+
+// React Import
 import React from "react";
 
-const PrivacyPolicy = () => {
+const PrivacyPolicyView = () => {
   return <div>PrivacyPolicy</div>;
 };
 
-export default PrivacyPolicy;
+export default PrivacyPolicyView;

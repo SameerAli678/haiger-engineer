@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+// import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/layout/footer";
 
 export const metadata: Metadata = {
   title: "Haiger Engineer",
@@ -13,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={``}>{children}</body>
+      <body className={""}>
+        {/* <Navbar /> */}
+        <Footer />
+        {children}
+      </body>
     </html>
   );
 }

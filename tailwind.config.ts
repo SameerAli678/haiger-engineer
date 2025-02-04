@@ -5,8 +5,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        Primary: "#206BAE",
+        Text: "#484848",
+        TextSecondary: "#6d6d6d",
       },
     },
   },

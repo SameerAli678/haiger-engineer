@@ -5,7 +5,7 @@
 import { cn } from "@/lib/cn-utils";
 
 // React import
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 
 // Use interface InputProps
 interface InputProps {

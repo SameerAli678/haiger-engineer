@@ -1,8 +1,17 @@
-import ServiceDetailsView from "@/views/Services/details";
+// src/app/services/page.tsx
+
+// React Import
 import React from "react";
 
-const Page = () => {
-  return <ServiceDetailsView />;
+// view Import
+import ServiceDetailsView from "@/views/Services/details";
+
+const ServiceDetails = () => {
+  return (
+    <div>
+      <ServiceDetailsView />
+    </div>
+  );
 };
 
-export default Page;
+export default ServiceDetails;
